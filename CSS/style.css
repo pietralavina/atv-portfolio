@@ -114,6 +114,7 @@ main section.banner {
 section.banner h1 {
 	font-weight: bold;
 	font-size: 3rem;
+	margin: 0 0 5vw 0;
 }
 section.banner p {
 	margin: 1.5vw 4vw 1.5vw 0;
@@ -124,23 +125,28 @@ section.banner button {
 	padding: 10px 20px 10px 20px;
 	border: none;
 	font-size: 1.2rem;
+	margin: 5vw 0 0 0;
 }
 section.rt-post {
 	background-color: #edf4fa;
+	margin: 7vw 0 0 0;
 }
 section.rt-post h2 {
 	font-size: 1.8rem ;
-	padding: 3vw 5vw 0vw 3vw;
+	padding: 3vw 5vw 0 3vw;
 }
 section.rt-post ul {
 	display: flex;
-	padding: 3vw 5vw 3vw 5vw;
+	padding: 3vw 5vw 0 3vw;
 }
 section.rt-post ul li{
 	background-color: white;
-	margin: 5vw 1vw 5vw 1vw;
+	margin: 0 0vw 5vw 2vw;
 	padding: 2vw 5vw 2vw 5vw;
-	border-radius: 20px;
+	border-radius: 8px;
+}
+section.rt-post ul li:first-child {
+	margin: 0 0vw 5vw 0;
 }
 section.rt-post ul li h3 {
 	font-weight: bold;
@@ -149,7 +155,39 @@ section.rt-post ul li h3 {
 section.rt-post ul li p {
 	margin: 2vw 0 2vw 0;
 }
-
+section.ft-works {
+	margin: 5vw 0 15vw 0;
+}
+section.ft-works h2 {
+	font-size: 1.5rem;
+	margin: 0 0 5vw 0;
+}
+section.ft-works ul {
+	display: flex;
+}
+section.ft-works ul li {
+	margin: 0 2vw 2vw 0;
+}
+section.ft-works ul li h3 {
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin: 2vw 0 2vw 0;
+}
+section.ft-works ul li p span {
+	background-color: #142850;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	border-radius: 30px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin: 0 3vw 0 0;
+}
+section.ft-works ul li p {
+	margin: 2vw 0 0 0;
+}
+section.ft-works ul li p.categories {
+	color: #8695A4;
+}
 /*==================
      FOOTER
 ==================*/
